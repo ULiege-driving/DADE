@@ -8,6 +8,11 @@ This dataset was generated using the CARLA simulator (version 0.9.14) to provide
 
 DADE dataset is divided into two sub-datasets. For both subsets, each sequence is acquired by one agent (one ego vehicle) running for some time within a 5-hour time frame, amounting to a total of 990k frames for the entire dataset. The agents travel various locations such as forest, countryside, rural farmland, highway, low density residential, community buildings, and high density residential.
 
+<div align="center">
+<div></div>
+<img src="images/DADE_locations.png"> 
+</div>
+
 ### Subset 1: Static Weather Conditions (Clear Day)
 
 - Number of Video Sequences: 100
@@ -25,6 +30,11 @@ DADE dataset is divided into two sub-datasets. For both subsets, each sequence i
 - Total Number of Frames: 719,742
 - Total Duration: 200 hours of video
 - Weather Conditions: Dynamically changing weather conditions, transitioning every 10 minutes between clear, rainy, and foggy conditions, with smooth transitions of 10 seconds. The 5-hour period includes approximately 2 hours of night conditions and 3 hours of day conditions.
+
+<div align="center">
+<div></div>
+<img src="images/DADE_HDR_dynamic.png"> 
+</div>
 
 ### Dataset Contents
 
