@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The DADE dataset, short for "Driving Agents in Dynamic Environments", is a synthetic dataset designed for the training and evaluation of methods for the task of semantic segmentation in the context of autonomous driving agents navigating dynamic environments and weather conditions. 
+The DADE dataset, short for **Driving Agents in Dynamic Environments**, is a synthetic dataset designed for the training and evaluation of methods for the task of semantic segmentation in the context of autonomous driving agents navigating dynamic environments and weather conditions. 
 
 This dataset was generated using the CARLA simulator (version 0.9.14). 
 
@@ -40,7 +40,7 @@ If you find this dataset useful in your research, please consider citing:
   url       = {https://doi.org/10.58119/ULG/H5SP5P}
 }
 ```
-- MSC-TTA: 
+- the MSC-TTA paper: 
 ```bibtex
 @article{Gerin2023MultiStream,
   author = {G\'erin, Beno\^it and Halin, Ana\"is and Cioppa, Anthony and Henry, Maxim and Ghanem, Bernard and Macq, Beno\^it and De Vleeschouwer, Christophe and Van Droogenbroeck, Marc},
@@ -50,4 +50,4 @@ If you find this dataset useful in your research, please consider citing:
 ```
 
 ## License
-[CC-BY-4.0](https://github.com/ULiege-driving/DADE/blob/main/LICENSE).
+[CC-BY-4.0](https://github.com/ULiege-driving/DADE/blob/main/LICENSE)
