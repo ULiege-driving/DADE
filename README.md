@@ -20,10 +20,12 @@ All signals are acquired at the framerate of 1 frame per second, with a high-res
 
 <div align="center">
 <div></div>
+  
 | **RGB**                            | **Semantic segmentation**              | **Semantic segmentation**        | 
 |                                    | **ground truth from CARLA**            | **ground truth used in MSC-TTA** | 
 |:----------------:                  |:----------------:                      |:----------------:                |
 | <img src="images/000055_img.png">  | <img src="images/000055_sm_carla.png"> | <img src="images/000055_sm.png"> |
+
 </div>
 
 We provide code to get the location based on the GNSS data (see the [MSC-TTA repository](https://github.com/ULiege-driving/MSC-TTA)). 
