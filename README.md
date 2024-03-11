@@ -33,7 +33,7 @@ DADE dataset is divided into two sub-datasets. For both subsets, each sequence i
 
 <div align="center">
 <div></div>
-<img src="images/DADE_HDR_dynamic.png"  width=50% height=auto> 
+<img src="images/DADE_HDR_dynamic.png"  width=40% height=auto> 
 </div>
 
 ### Dataset Contents
