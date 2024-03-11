@@ -10,7 +10,7 @@ DADE dataset is divided into two sub-datasets. For both subsets, each sequence i
 
 <div align="center">
 <div></div>
-<img src="images/DADE_locations.png"  width=70% height=auto> 
+<img src="images/DADE_locations.png" width=60% height=auto> 
 </div>
 
 ### Subset 1: Static Weather Conditions (Clear Day)
@@ -33,7 +33,7 @@ DADE dataset is divided into two sub-datasets. For both subsets, each sequence i
 
 <div align="center">
 <div></div>
-<img src="images/DADE_HDR_dynamic.png"> 
+<img src="images/DADE_HDR_dynamic.png"  width=50% height=auto> 
 </div>
 
 ### Dataset Contents
