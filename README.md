@@ -13,7 +13,7 @@ For both subsets, each sequence is acquired by one agent (one ego vehicle) runni
 
 This dataset provides:
 - video sequences taken by an RGB camera,
-- semantic segmentation ground-truth masks,
+- semantic segmentation ground-truth masks (both from CARLA and the modified version used in our MSC-TTA paper),
 - the GNSS (Global Navigation Satellite System) position of each agent in the simulation,
 - the weather information.
 All signals are acquired at the framerate of 1 frame per second, with a high-resolution (HD) definition.
@@ -21,7 +21,7 @@ All signals are acquired at the framerate of 1 frame per second, with a high-res
 <div align="center">
 <div></div>
   
-| **RGB** | **Semantic segmentation ground truth from CARLA** | **Semantic segmentation ground truth used in MSC-TTA** | 
+| **RGB** | **Semantic segmentation ground truths from CARLA** | **Semantic segmentation ground truths used in MSC-TTA** | 
 |:----------------:                  |:----------------:                      |:----------------:                |
 | <img src="images/000055_img.png">  | <img src="images/000055_sm_carla.png"> | <img src="images/000055_sm.png"> |
 
