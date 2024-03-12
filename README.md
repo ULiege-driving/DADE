@@ -177,10 +177,18 @@ The color code is the following one:
 
 </div>
 
-
 ## Downloading
 
-The DADE dataset can be manually downloaded [here](https://dataverse.uliege.be/dataset.xhtml?persistentId=doi:10.58119/ULG/H5SP5P).
+The DADE dataset can be manually downloaded from this [webpage](https://dataverse.uliege.be/dataset.xhtml?persistentId=doi:10.58119/ULG/H5SP5P) or using our Python download script. You can select the subset of the data to download. A usage example is shown below.
+
+```bash
+python download.py --dade  "all" \         # subset to download. Options: "static", "dynamic", or "all" 
+                   dataset_root            # path where to store the downloaded data
+```
+
+### Data loaders
+
+Data loaders example can be found in our [MSC-TTA repository](https://github.com/ULiege-driving/MSC-TTA).
 
 ## Generating your own data
 
