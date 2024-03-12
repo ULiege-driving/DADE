@@ -186,6 +186,8 @@ python download.py --dade  "all" \         # subset to download. Options: "stati
                    dataset_root            # path where to store the downloaded data
 ```
 
+Our python script requires the wget package. If you don't have it, simply do `pip3 install wget` before running our script.
+
 ### Data loaders
 
 Examples of data loaders can be found in our [MSC-TTA repository](https://github.com/ULiege-driving/MSC-TTA).
