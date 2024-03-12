@@ -39,7 +39,7 @@ def main():
         os.makedirs(dataset_dir)
     
     if not os.path.isfile(os.path.join(dataset_dir,"ReadMe.md")):
-        print("Downloading ReadMe.md")
+        print("\n Downloading ReadMe.md")
         url = BASE_URL + README_URL
         wget.download(url, os.path.join(dataset_dir,"ReadMe.md"))
 
