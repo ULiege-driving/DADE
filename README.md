@@ -179,7 +179,7 @@ The color code is the following one:
 
 ## Downloading
 
-The DADE dataset can be manually downloaded from this [webpage](https://dataverse.uliege.be/dataset.xhtml?persistentId=doi:10.58119/ULG/H5SP5P) or using our Python download script. You can select the subset of the data to download. A usage example is shown below.
+The DADE dataset can be manually downloaded from this [webpage](https://doi.org/10.58119/ULG/H5SP5P) or using our Python download script. You can select the subset of the data to download. A usage example is shown below.
 
 ```bash
 python3 download.py --dade  "all" \         # subset to download. Options: "static", "dynamic", or "all" 
