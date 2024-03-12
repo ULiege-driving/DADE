@@ -1,6 +1,8 @@
 # DADE dataset 
 
-## Overview
+This repository provides a description of the DADE dataset, information to download the dataset (manually or using a script), and code to generate your own data.
+
+## Description of the dataset
 
 The DADE dataset, short for **Driving Agents in Dynamic Environments**, is a synthetic dataset designed for the training and evaluation of methods for the task of semantic segmentation in the context of autonomous driving agents navigating dynamic environments and weather conditions. 
 
@@ -58,7 +60,7 @@ The DADE dataset is composed of temporal frames (video sequences) and includes t
 - Frame Rate: 1 frame per second (1 fps)
 - Image Resolution: 720p (1280x720 pixels, high definition, HD)
 
-## Data structure
+### Data structure
 
 <pre>
 DADE/
@@ -182,7 +184,18 @@ The DADE dataset can be manually downloaded [here](https://dataverse.uliege.be/d
 
 ## Generating your own data
 
+In order to generate your own data, we provide the code that we used to collect the DADE dataset in the `code` folder. 
 
+The first thing is to install CARLA (version 0.9.14) and its additional assets. 
+This can be done by following the [official documentation](https://carla.readthedocs.io/en/0.9.14/start_quickstart/).
+
+Then, you simply need to run CARLA and use the following command line: 
+
+```shell
+python3 generate_dataset.py
+```
+
+A `run.sh` file is provided as an example. You can use this file after modifying the various paths and arguments as required.
 
 ## Citation
 
