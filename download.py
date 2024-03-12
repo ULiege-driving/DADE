@@ -6,8 +6,8 @@ Download script for DADE dataset.
 The data is released under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License.
 
 Script usage example:
-    python download.py  --dade  "all" \         # subset to download. Options: "static", "dynamic", or "all" 
-                        dataset_root            # path where to store the downloaded data
+    python3 download.py  --dade  "all" \         # subset to download. Options: "static", "dynamic", or "all" 
+                         dataset_root            # path where to store the downloaded data
 
 """
 
