@@ -182,11 +182,11 @@ The color code is the following one:
 The DADE dataset can be manually downloaded from this [webpage](https://dataverse.uliege.be/dataset.xhtml?persistentId=doi:10.58119/ULG/H5SP5P) or using our Python download script. You can select the subset of the data to download. A usage example is shown below.
 
 ```bash
-python download.py --dade  "all" \         # subset to download. Options: "static", "dynamic", or "all" 
-                   dataset_root            # path where to store the downloaded data
+python3 download.py --dade  "all" \         # subset to download. Options: "static", "dynamic", or "all" 
+                    dataset_root            # path where to store the downloaded data
 ```
 
-Our python script requires the wget packages. If you don't have it, simply do `pip install wget` before running our script.
+Our python script requires the wget packages. If you don't have it, simply do `pip3 install wget` before running our script.
 
 ### Data loaders
 
