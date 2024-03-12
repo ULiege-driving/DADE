@@ -188,7 +188,7 @@ python download.py --dade  "all" \         # subset to download. Options: "stati
 
 ### Data loaders
 
-Data loaders example can be found in our [MSC-TTA repository](https://github.com/ULiege-driving/MSC-TTA).
+Examples of data loaders can be found in our [MSC-TTA repository](https://github.com/ULiege-driving/MSC-TTA).
 
 ## Generating your own data
 
