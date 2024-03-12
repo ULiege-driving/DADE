@@ -186,7 +186,7 @@ python download.py --dade  "all" \         # subset to download. Options: "stati
                    dataset_root            # path where to store the downloaded data
 ```
 
-Our python script requires the wget and tqdm packages. If you don't have them, simply do `pip install wget` and/or `pip install tqdm` before running our script.
+Our python script requires the wget packages. If you don't have it, simply do `pip install wget` before running our script.
 
 ### Data loaders
 
