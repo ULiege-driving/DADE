@@ -60,6 +60,7 @@ def main():
         
     
     if args.dade == "dynamic" or "all": # != "static"
+        print("\n For download, DADE-dynamic is divided into 3 parts.")
         dynamic_dir = os.path.join(dataset_dir,"dynamic_weather")
         if not os.path.isdir(dynamic_dir):
             os.makedirs(dynamic_dir)
@@ -88,6 +89,7 @@ def main():
                 tar.extractall(path=dynamic_dir)
             os.remove(os.path.join(dataset_dir,"dynamic_weather_part3.tar"))
 
+    print("\n")
     print("Done!")
 
 
