@@ -225,10 +225,13 @@ If you find this dataset useful in your research, please consider citing:
 ```
 - the MSC-TTA paper: 
 ```bibtex
-@article{Gerin2023MultiStream,
-  author = {G\'erin, Beno\^it and Halin, Ana\"is and Cioppa, Anthony and Henry, Maxim and Ghanem, Bernard and Macq, Beno\^it and De Vleeschouwer, Christophe and Van Droogenbroeck, Marc},
-  title  = {Multi-Stream Cellular Test-Time Adaptation of Real-Time Models Evolving in Dynamic Environments},
-  year   = {2023}
+@inproceedings{Gerin2024MultiStream,
+        title = {Multi-Stream Cellular Test-Time Adaptation of Real-Time Models Evolving in Dynamic Environments},
+        author = {G\'erin, Beno{\^{\i}}t and Halin, Ana{\"\i}s and Cioppa, Anthony and Henry, Maxim and Ghanem, Bernard and Macq, Beno{\^{\i}}t and De Vleeschouwer, Christophe and Van Droogenbroeck, Marc},
+        booktitle = {IEEE International Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+        month = {June},
+        year = {2024},
+        address = {Seattle, Washington, USA}
 }
 ```
 
