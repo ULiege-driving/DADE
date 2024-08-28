@@ -48,7 +48,7 @@ def main():
         url = BASE_URL + TOWN12_URL
         wget.download(url, os.path.join(dataset_dir,"Town12.png"))
 
-    if args.dade == "static" or "all": # != "dynamic"
+    if args.dade != "dynamic": # == "static" or "all"
         if not os.path.isfile(os.path.join(dataset_dir,"static_weather.tar")):
             print("\n Downloading static_weather.tar")
             url = BASE_URL + STATIC_URL
@@ -59,7 +59,7 @@ def main():
             os.remove(os.path.join(dataset_dir,"static_weather.tar"))
         
     
-    if args.dade == "dynamic" or "all": # != "static"
+    if args.dade != "static": # == "dynamic" or "all"
         print("\n For download, DADE-dynamic is divided into 3 parts.")
         dynamic_dir = os.path.join(dataset_dir,"dynamic_weather")
         if not os.path.isdir(dynamic_dir):
