@@ -188,6 +188,8 @@ python3 download.py --dade  "all" \         # subset to download. Options: "stat
 
 Our python script requires the wget packages. If you don't have it, simply do `pip3 install wget` before running our script.
 
+The DADE dataset is now also available on [huggingface](https://huggingface.co/datasets/ahalin/DADE) for an easy download.
+
 ### Data loaders
 
 Examples of data loaders can be found in our [MSC-TTA repository](https://github.com/ULiege-driving/MSC-TTA).
